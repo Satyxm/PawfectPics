@@ -1,0 +1,93 @@
+* {  /* Default Styling */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+      background-color: #F0FFF0;
+  }
+  
+  .navbar {
+      display: flex;  /* Puts navbar's elements in a sequence */
+      justify-content: space-between; /* creates a space between the elements of navbar */
+      text-align: center; /* Puts the elements in center of the navbar  */
+      padding: 25px 45px; /* padding from left-right and up-down inside the navbar */
+  
+  }
+  
+  .logo {
+      font-size: 18px;
+      color: black; /* logo's h1 heading color */
+  }
+  
+  .nav-links {
+      display: flex; /* Sets the ul elements in sequence */
+  }
+  
+  .nav-links li {
+      list-style: none; /* no bullet points */
+      margin-right: 25px; /* right spacing from margin */
+      
+  }
+  
+  .nav-links li a {
+      color: black; /* link element's color */
+      text-decoration: none; /* no underlines or stuff */
+      font-weight: bold; /* list element font set to bold */
+      
+  }
+  
+  .nav-links li a:hover {
+      text-decoration: underline; /* on hover -- there's a underline */
+  }
+  
+  #container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+  }
+
+  #logo {
+        margin: 0 auto;
+        width: 272px;
+        height: 92px;
+  }
+
+  #search-box {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    background-color: white;
+  }
+
+  #search-input {
+    flex: 1;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    outline: none;
+  }
+
+  #search-button {
+    background-color: blue;;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    margin-left: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #search-button:hover {
+    background-color: #357ae8;
+}
+
+#footer {
+    margin-top: 20px;
+    color: #80868b;
+}
