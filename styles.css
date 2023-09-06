@@ -1,112 +1,123 @@
 * {  /* Default Styling */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-  }
-  
-  body {
-      background-color: #F0FFF0;
-  }
-  
-  .navbar {
-      display: flex;  /* Puts navbar's elements in a sequence */
-      justify-content: space-between; /* creates a space between the elements of navbar */
-      text-align: center; /* Puts the elements in center of the navbar  */
-      padding: 25px 45px; /* padding from left-right and up-down inside the navbar */
-  
-  }
-  
-  .logo {
-      font-size: 18px;
-      color: black; /* logo's h1 heading color */
-  }
-  
-  .nav-links {
-      display: flex; /* Sets the ul elements in sequence */
-  }
-  
-  .nav-links li {
-      list-style: none; /* no bullet points */
-      margin-right: 25px; /* right spacing from margin */
-      
-  }
-  
-  .nav-links li a {
-      color: black; /* link element's color */
-      text-decoration: none; /* no underlines or stuff */
-      font-weight: bold; /* list element font set to bold */
-      
-  }
-  
-  .nav-links li a:hover {
-      text-decoration: underline; /* on hover -- there's a underline */
-  }
-  
-  #container {
-    max-width: 600px;
-    margin: 100px auto;
-    text-align: center;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
 
-  #logo {
-        margin: 0 auto;
-        width: 272px;
-        height: 92px;
-        
-  }
+body {
+    background-color: #F0FFF0;
+}
 
-  a {
-    color: black;
-        text-decoration: none;
-  }
+.navbar {
+    display: flex;  /* Puts navbar's elements in a sequence */
+    justify-content: space-between; /* creates a space between the elements of navbar */
+    text-align: center; /* Puts the elements in center of the navbar  */
+    padding: 25px 45px; /* padding from left-right and up-down inside the navbar */
 
-  #search-box {
-    width: 100%;
-    padding: 20px;
-    border: 1px solid whitesmoke;
-    border-radius: 24px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    background-color: white;
-  }
+}
 
-  #search-input {
-    flex: 1;
-    border: none;
+.logo {
     font-size: 18px;
-    padding: 8px;
-    outline: none;
-  }
+    color: black; /* logo's h1 heading color */
+}
 
-  #search-button {
-    background-color: green;
-    color: white;
-    border: none;
-    border-radius: 24px;
-    padding: 10px 20px;
-    margin-left: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
+.nav-links {
+    display: flex; /* Sets the ul elements in sequence */
+}
 
-  #search-button:hover {
-    background-color: darkgreen;
+.nav-links li {
+    list-style: none; /* no bullet points */
+    margin-right: 25px; /* right spacing from margin */
+    
+}
+
+.nav-links li a {
+    color: black; /* link element's color */
+    text-decoration: none; /* no underlines or stuff */
+    font-weight: bold; /* list element font set to bold */
+    
+}
+
+.nav-links li a:hover {
+    text-decoration: underline; /* on hover -- there's a underline */
+}
+
+#container {
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+#logo {
+      margin: 0 auto;
+      width: 272px;
+      height: 92px;
+      
+}
+
+a {
+  color: black;
+      text-decoration: none;
+}
+
+#search-box {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  background-color: white;
+}
+
+#search-input {
+  flex: 1;
+  border: none;
+  font-size: 18px;
+  padding: 8px;
+  outline: none;
+}
+
+#search-button {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 20px;
+  margin-left: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#search-button:hover {
+  background-color: darkgreen;
 }
 
 #footer {
-    margin-top: 20px;
-    color: #80868b;
+  margin-top: 20px;
+  color: #80868b;
+}
+
+.img-cont {
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+gap: 4em;
+justify-content: center;
+height: 100vh;
 }
 
 .img-dogs {
-  width: 332px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 25px auto;
-  margin-left: 65px;
+
+width: 332px;
+height: auto;
+border-radius: 12px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .made-with {
-  text-align: center;
+text-align: center;
+margin-bottom: 20px;
 }
+
