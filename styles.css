@@ -60,15 +60,7 @@ a {
       text-decoration: none;
 }
 
-#search-box {
-  width: 100%;
-  padding: 20px;
-  border: 1px solid whitesmoke;
-  border-radius: 24px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  background-color: white;
-}
+
 
 #search-input {
   flex: 1;
@@ -98,22 +90,33 @@ a {
   color: #80868b;
 }
 
+#search-box {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
 .img-cont {
-display: flex;
-flex-wrap: wrap;
-align-content: center;
-gap: 4em;
-justify-content: center;
-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  gap: 4em;
+  margin-top: 48px; /* Adjust the margin from the search box */
+  margin-bottom: 20px; /* Margin from the page bottom */
+  min-height: calc(100vh - 68px); /* Calculate the minimum height to fit content */
 }
 
 .img-dogs {
-
-width: 332px;
-height: auto;
-border-radius: 12px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
+  width: 332px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .made-with {
@@ -121,3 +124,53 @@ text-align: center;
 margin-bottom: 20px;
 }
 
+#search-box {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  background-color: white;
+  margin-bottom: 20px; /* Add space between search box and images */
+}
+
+.img-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  margin-top: 48px; /* Adjust the margin from the search box */
+  margin-bottom: 20px; /* Margin from the page bottom */
+  min-height: calc(100vh - 68px); /* Calculate the minimum height to fit content */
+}
+
+.img-cont-wrapper {
+  display: flex;
+  flex-direction: row; /* Change to row to align images horizontally */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+
+.img-dogs {
+  width: 332px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px; /* Adjust the margin between images */
+}
+
+.loading {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  border: 3px dotted transparent;
+  border-radius: 50%;
+  border-top-color: #007bff; /* Change the color as desired */
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

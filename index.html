@@ -20,14 +20,15 @@
 
     <div id="container">
        <img  id="logo" src="./assets/dog-svgrepo-com.svg" alt="Pawfect Logo">
-       <form action="https://www.google.com/search" method="GET">
-          <div id="search-box">
-                 <input id="search-input" type="text" name="q" placeholder="Search Paws">
-                 <button id="search-button" type="submit">Paw Search</button>
-          </div>
-       </form>
+       <div id="search-box">
+           <input id="search-input" type="text" placeholder="Enter /pup">
+           <button id="search-button">Generate Images</button>
+       </div>
        <p id="footer">© 2023 PawfectPics</p>
     </div>
+
+    <div class="loading" id="loadingIcon"></div>
+    <div class="img-cont" id="dogImageContainer"></div>
 
     <script src="./script.js"></script>
 </body>
