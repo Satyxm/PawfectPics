@@ -2,7 +2,7 @@
 
 Context - Doing this Challenge on Bluesky and main motive is getting proficient in backend but, since i had a quite grasp on html, css and js fundamentals I thought of learning the respective frameworks and combined knowledge of frontend, backend, and quite a knowledge of docker (i also have :)). Therefore, The route now is Full-Stacked :)
 
-*All of this GPT Generated*
+*All of this Readme is GPT Generated*
 
 **1. Project Overview:**
 
